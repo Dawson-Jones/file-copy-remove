@@ -17,7 +17,6 @@ class FileCopy(FileSystemEventHandler):
         if event.is_directory:
             return
         path = event.src_path
-        print('路径: ', path)
         pic_name = os.path.split(path)[-1]  # 123579_A1H1.jpg
         ret = re.match(r'(.+)_.*\.', pic_name)
         if ret and imghdr.what(path) == 'jpeg':

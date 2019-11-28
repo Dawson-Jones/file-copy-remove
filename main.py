@@ -36,7 +36,7 @@ class FileRemove(FileSystemEventHandler):
             return
         path = event.src_path
 
-        ret = re.match(r'.*/[Oo][Kk][/\\]([^/]+)\.', path)
+        ret = re.match(r'.*[Oo][Kk][/\\]([^/\\]+)\.', path)
         # ret = re.match(r'.*/[Oo][Kk][/\\]([^/]+)\.', '/home/ubuntu/Pictures/B/20191101/day/ok/12312.jpg')
         # ret = re.match(r'.*/[Oo][Kk][/\\]([^/]+)\.', '/home/ubuntu/Pictures/B/ok/day/ng/12312.jpg')
         # if 'ok' in path.lower():
