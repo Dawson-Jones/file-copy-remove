@@ -1,5 +1,5 @@
 class Solution:
-    def climbStairs(self, n):
+    def climb_stairs(self, n):
         """
         :type n: int
         :rtype: int
@@ -9,9 +9,9 @@ class Solution:
         elif n == 2:
             return 2
         else:
-            return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+            return self.climb_stairs(n - 1) + self.climb_stairs(n - 2)
 
 
 s = Solution()
-res = s.climbStairs(10)
+res = s.climb_stairs(10)
 print(res)
