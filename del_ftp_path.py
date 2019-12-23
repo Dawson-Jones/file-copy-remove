@@ -35,7 +35,6 @@ def clean_ftp(address, user=None, pwd=None):
         logger.error("Wrong account or password, code: {}".format(e))
         return
 
-
     ftp_rm_tree(path)
     # dir_list = ftp.nlst(path)
     # remove_file(dir_list)
@@ -62,7 +61,7 @@ def ftp_rm_tree(path):
     for name in names:
         if os.path.split(name)[1] in ('.', '..'): continue
 
-        # logger.debug('FtpRmTree: Checking {0}'.format(name))
+        logger.debug('FtpRmTree: Checking {0}'.format(name))
         try:
             ftp.cwd(name)  # if we can cwd to it, it's a folder
             ftp.cwd(wd)  # don't try a nuke a folder we're in

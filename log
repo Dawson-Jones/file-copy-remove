@@ -1410,3 +1410,4 @@
 2019-12-23 16:52:14 - MainThread - del_ftp_path.py:48 - INFO - delete dobby/d successful
 2019-12-23 16:55:04 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
 >>>>>>> dev
+2019-12-23 17:05:32 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
