@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-12-22 16:38:50 - MainThread - del_ftp_path.py:19 - ERROR - Wrong address
 2019-12-22 16:44:28 - MainThread - del_ftp_path.py:34 - INFO - login successful: 220 (vsFTPd 3.0.3)
 2019-12-22 16:44:28 - MainThread - del_ftp_path.py:52 - INFO - /ftp/opt_pichas been removed 550 Remove directory operation failed.
@@ -1316,3 +1317,96 @@
 2019-12-22 18:17:35 - MainThread - del_ftp_path.py:52 - INFO - delete successful
 2019-12-22 18:17:35 - MainThread - del_ftp_path.py:52 - INFO - delete successful
 2019-12-22 18:17:35 - MainThread - del_ftp_path.py:52 - INFO - delete successful
+=======
+2019-12-23 15:38:25 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:38:51 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:39:14 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:39:35 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:40:10 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:41:16 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:42:17 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:43:00 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:43:37 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:44:41 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:45:11 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:45:19 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:45:24 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:45:40 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:45:59 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:48:04 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:48:04 - MainThread - del_ftp_path.py:66 - ERROR - 550 Delete operation failed.
+2019-12-23 15:48:04 - MainThread - del_ftp_path.py:66 - ERROR - 550 Delete operation failed.
+2019-12-23 15:52:00 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:55:37 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:55:38 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 15:55:38 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 15:57:48 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:57:48 - MainThread - del_ftp_path.py:49 - ERROR - delete opt_pic/a failed wrong info: 550 Delete operation failed.
+2019-12-23 15:57:49 - MainThread - del_ftp_path.py:49 - ERROR - delete opt_pic/ab failed wrong info: 550 Delete operation failed.
+2019-12-23 15:57:49 - MainThread - del_ftp_path.py:47 - INFO - delete successful
+2019-12-23 15:59:36 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 15:59:37 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 15:59:37 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 15:59:37 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:01:08 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:01:08 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:01:08 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:01:08 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:03:48 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:03:48 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:03:49 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:03:49 - MainThread - del_ftp_path.py:76 - ERROR - 550 Delete operation failed.
+2019-12-23 16:05:42 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:07:11 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:10:52 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:11:42 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:11:49 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:12:39 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:13:37 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:14:42 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:15:35 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:16:01 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:19:13 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:20:39 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:20:58 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:22:12 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:22:24 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:24:51 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:24:52 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/a failed wrong info: 550 Delete operation failed.
+2019-12-23 16:24:52 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/b failed wrong info: 550 Delete operation failed.
+2019-12-23 16:24:52 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/c failed wrong info: 550 Delete operation failed.
+2019-12-23 16:24:52 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/d failed wrong info: 550 Delete operation failed.
+2019-12-23 16:25:37 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:25:37 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/a failed wrong info: 550 Delete operation failed.
+2019-12-23 16:25:37 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/b failed wrong info: 550 Delete operation failed.
+2019-12-23 16:25:37 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/c failed wrong info: 550 Delete operation failed.
+2019-12-23 16:25:37 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/d failed wrong info: 550 Delete operation failed.
+2019-12-23 16:26:59 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:27:00 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/a failed wrong info: 550 Delete operation failed.
+2019-12-23 16:27:00 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/b failed wrong info: 550 Delete operation failed.
+2019-12-23 16:27:00 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/c failed wrong info: 550 Delete operation failed.
+2019-12-23 16:27:00 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/d failed wrong info: 550 Delete operation failed.
+2019-12-23 16:29:14 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:29:34 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:29:35 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/a failed wrong info: 550 Delete operation failed.
+2019-12-23 16:29:35 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/b failed wrong info: 550 Delete operation failed.
+2019-12-23 16:29:35 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/c failed wrong info: 550 Delete operation failed.
+2019-12-23 16:29:35 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/d failed wrong info: 550 Delete operation failed.
+2019-12-23 16:33:52 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:33:53 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/a failed wrong info: 550 Delete operation failed.
+2019-12-23 16:33:53 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/b failed wrong info: 550 Delete operation failed.
+2019-12-23 16:33:53 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/c failed wrong info: 550 Delete operation failed.
+2019-12-23 16:33:53 - MainThread - del_ftp_path.py:50 - ERROR - delete dobby/d failed wrong info: 550 Delete operation failed.
+2019-12-23 16:45:49 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:45:49 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/1.txt failed wrong info: 550 Delete operation failed.
+2019-12-23 16:45:49 - MainThread - del_ftp_path.py:50 - ERROR - delete opt_pic/q.txt failed wrong info: 550 Delete operation failed.
+2019-12-23 16:50:57 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:50:57 - MainThread - del_ftp_path.py:48 - INFO - delete opt_pic/1.txt successful
+2019-12-23 16:50:57 - MainThread - del_ftp_path.py:48 - INFO - delete opt_pic/q.txt successful
+2019-12-23 16:52:13 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+2019-12-23 16:52:14 - MainThread - del_ftp_path.py:48 - INFO - delete dobby/a successful
+2019-12-23 16:52:14 - MainThread - del_ftp_path.py:48 - INFO - delete dobby/b successful
+2019-12-23 16:52:14 - MainThread - del_ftp_path.py:48 - INFO - delete dobby/c successful
+2019-12-23 16:52:14 - MainThread - del_ftp_path.py:48 - INFO - delete dobby/d successful
+2019-12-23 16:55:04 - MainThread - del_ftp_path.py:28 - INFO - login successful: 220 (vsFTPd 3.0.3)
+>>>>>>> dev
