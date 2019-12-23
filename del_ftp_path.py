@@ -68,12 +68,14 @@ def ftp_rm_tree(path):
             ftp_rm_tree(name)
         except ftplib.all_errors:
             ftp.delete(name)
+            logger.info("delete %s successful" % name)
 
     try:
         ftp.rmd(path)
+        logger.info("delete %s successful" % path)
     except ftplib.all_errors as e:
         logger.debug('FtpRmTree: Could not remove {0}: {1}'.format(path, e))
 
 
 if __name__ == '__main__':
-    clean_ftp("ftp://192.168.1.8:21/opt_pic/", 'ELUpload', 'jink0s0l@rel')
+    clean_ftp("ftp://127.0.0.1:21/opt_pic/", 'yycc', '123123')

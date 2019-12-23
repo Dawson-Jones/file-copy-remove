@@ -28,3 +28,10 @@ PATH_A = 'E:\pj_picture\A'
 PATH_B = 'E:\pj_picture\B'
 PATH_C = 'E:\pj_picture\C'
 ```
+
+## del_ftp_path  
+**eg:**  
+```python
+from del_ftp_path import clean_ftp
+clean_ftp("ftp://192.168.1.8:21/opt_pic/", 'ELUpload', 'jink0s0l@rel')
+```
