@@ -17,12 +17,10 @@ class FileCopy(FileSystemEventHandler):
         if event.is_directory:
             return
         path = event.src_path
-        # print("路径: ", path)
         pic_name = os.path.split(path)[-1]  # 123579_A1H1.jpg
         ret = re.match(r'(.+)_.*\.', pic_name)
         # if ret and imghdr.what(path) == 'jpeg':
         ext_name = os.path.splitext(pic_name)[-1].lower()
-        # print('拓展名:', ext_name)
         if ret and (ext_name == '.jpeg' or ext_name == '.jpg'):
             target_folder = os.path.join(PATH_C, ret.group(1))
             if not os.path.exists(target_folder):
@@ -30,7 +28,6 @@ class FileCopy(FileSystemEventHandler):
             try:
                 shutil.copy(path, target_folder)
             except PermissionError:
-                # print('except 中')
                 self.on_created(event)
 
 
@@ -57,7 +54,6 @@ class FileRemove(FileSystemEventHandler):
                 target_folder = os.path.join(PATH_C, ret.group(1))
                 if os.path.exists(target_folder):
                     shutil.rmtree(target_folder)
-                    # print('已经删除')
 
 
 def watch_file(src_path, file_handler):
