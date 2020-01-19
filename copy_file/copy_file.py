@@ -1,3 +1,4 @@
+import sys
 import yaml
 import os
 import shutil
@@ -19,7 +20,9 @@ def main():
 
     for i in copy_li:
         file_name = i.replace('/', '-')
-        target_path = os.path.join(dct.get('copy_to'), file_name)
+        target_path = os.path.join(copy_to, file_name)
+        if not os.path.exists(target_path):
+            os.makedirs(target_path)
         copy_file(i, target_path, 50)
 
 
@@ -32,7 +35,7 @@ def copy_file(file: str, target_path, num):
         logger.error(e)
         return print(f'{file}文件路径有错')
     except PermissionError:
-        return copy_file(file, target_path, num-1)
+        return copy_file(file, target_path, num - 1)
     except Exception as e:
         logger.error(e)
         return print(f'复制{file}失败')
@@ -41,3 +44,6 @@ def copy_file(file: str, target_path, num):
 
 if __name__ == '__main__':
     main()
+    _quit = input('按任意键退出: ')
+    if _quit:
+        sys.exit()
