@@ -1,17 +1,16 @@
-class Solution:
-    def climb_stairs(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
-        if n == 1:
-            return 1
-        elif n == 2:
-            return 2
-        else:
-            return self.climb_stairs(n - 1) + self.climb_stairs(n - 2)
+def convert_left(x, y, h, w):
+    x, y = y, -x
+    y = y + h
+    return x, y
 
 
-s = Solution()
-res = s.climb_stairs(10)
-print(res)
+def convert_right(x, y, h, w):
+    x, y = -y, x
+    x = x + w
+    return x, y
+
+
+if __name__ == '__main__':
+    # print(convert_left(609, 10, 735, 171))
+    print(convert_right(643, 12, 727, 179))
+    print(convert_right(717, 179, 727, 179))

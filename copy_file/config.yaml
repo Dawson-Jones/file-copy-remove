@@ -1,0 +1,6 @@
+copy:
+  - /home/ubuntu/Documents/a/aabb.md
+  - /home/ubuntu/Documents/a/bb.md
+  - /home/ubuntu/Documents/a/log
+
+copy_to: /home/ubuntu/Documents/b
